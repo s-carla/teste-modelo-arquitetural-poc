@@ -1,0 +1,4 @@
+# Dependências só do servidor de produção (Linux/AWS).
+# Por que existe: separa o que só a produção precisa, como o servidor Gunicorn.
+-r base.txt
+gunicorn

@@ -1,0 +1,5 @@
+# Dependências necessárias em todos os ambientes (desenvolvimento e produção).
+# Por que existe: fixa as bibliotecas do projeto para todos usarem as mesmas versões.
+Django>=5.2,<5.3
+psycopg[binary]>=3.2
+django-environ>=0.11

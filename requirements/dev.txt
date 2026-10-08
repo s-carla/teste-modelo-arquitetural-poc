@@ -1,0 +1,6 @@
+# Ferramentas só do desenvolvedor (análise estática e testes).
+# Por que existe: não instalamos isto em produção, reduzindo tamanho e superfície de ataque.
+-r base.txt
+ruff
+pytest
+pytest-django
